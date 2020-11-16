@@ -1,0 +1,26 @@
+# MAC ADDRESS LOOKUP 
+https://aruljohn.com/mac.pl
+
+ifconfig
+
+
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 88:1f:a1:15:88:bc
+	inet6 fe80::1029:b8cf:bdcb:144f%en1 prefixlen 64 secured scopeid 0x5
+	inet 192.168.1.11 netmask 0xffffff00 broadcast 192.168.1.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+
+
+6 DIGIT OUI : 
+88:1f:a1
+
+check : 
+https://aruljohn.com/mac/881FA1
+
+Found 1 results.
+
+MAC Address/OUI	Vendor {Company}
+881FA1	Apple, Inc.

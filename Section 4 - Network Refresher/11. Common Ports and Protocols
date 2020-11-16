@@ -1,0 +1,19 @@
+Common Port and protocols
+https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+
+# TCP :
+FTP(21)
+SSH(22)
+TELNET(23)
+SMTP(25)
+DNS(53)
+HTTP(80)/HTTPS(443)
+POP3(110)
+SMB(139 + 445)
+IMAP(143)
+
+# UDP :
+DNS (53)
+DHCP (67,68)
+TFTP (69)
+SNMP (161)

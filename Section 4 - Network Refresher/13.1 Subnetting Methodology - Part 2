@@ -1,0 +1,6 @@
+Hands On Challange ada di excel
+
+
+create user bdmfr_apiweb identified by 'n@Fg$8z&$z+372pc3Ey%'; 
+grant all on *.* to bdmfr_apiweb with grant option;
+

@@ -1,0 +1,24 @@
+1. KeepNote
+2. Greenshot
+
+# INSTALL KEEPNOTE MAC OSX 
+https://github.com/mdrasmus/keepnote/blob/master/INSTALL.md
+https://highon.coffee/blog/keepnote-macbook-install-instructions/
+
+1. Mac OS X Install
+
+All third-party libraries for the Linux version of KeepNote are cross-platform and should also work for Mac OS X.
+
+python (http://www.python.org)
+gtk (http://www.gtk.org)
+pygtk (http://www.pygtk.org)
+All of these libraries are also available through MacPorts and HomeBrew on Mac OS X. Once installed, KeepNote can be run directly from its source directory.
+
+For example, yo install dependencies with MacPorts use the following command:
+
+sudo port install py27-gtk aspell aspell-dict-en sqlite3
+You may need to add your own language's dictionary (aspell-dict-XX) for spell checking to work completely.
+
+2. git clone https://github.com/mdrasmus/keepnote.git
+
+YOUR_DOWNLOAD_PATH/keepnote-X.Y.X/bin/keepnot

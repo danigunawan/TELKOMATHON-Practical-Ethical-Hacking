@@ -1,0 +1,24 @@
+pwd
+cd 
+ls
+cd r
+cd /etc/
+ls Desktop
+cd ~ 
+mkdir health
+rmdir health
+ls -la
+cd .cache/
+echo "Hi!" > test.txt
+cp test.txt Downloads/
+ls Downloads/
+rm Downloads/test.txt
+mv test.txt Downloads/
+locate bash 
+updatedb
+passwd 
+man ls 
+
+Cheatsheet Kali Linux
+https://github.com/NoorQureshi/kali-linux-cheatsheet
+https://uwnthesis.wordpress.com/2016/06/25/kali-linux-penetration-testing-cheat-sheet/

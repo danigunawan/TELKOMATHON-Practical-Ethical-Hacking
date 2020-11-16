@@ -1,0 +1,10 @@
+sudo -s
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install net-tools
+ifconfig
+iwconfig
+coba ping 192.168.1.15 (contoh)
+arp -a
+netstat -amo
+route

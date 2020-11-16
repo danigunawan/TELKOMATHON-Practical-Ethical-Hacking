@@ -1,0 +1,10 @@
+TOOLS : 
+wireshark
+
+1. TCP VS UDP
+UDP : User Datagram Protocol
+TCP : Transfer Control Protocol
+
+SYN > SYN ACK > ACK
+
+2. Running wireshark and check protocol packet

@@ -1,0 +1,7 @@
+apt update && apt upgrade
+apt install python-pip
+
+# INSTALL IMPACKET 
+cd /opt/
+git clone https://github.com/SecureAuthCorp/impacket.git
+pip install .

@@ -1,0 +1,15 @@
+ls -la 
+ls -la /tmp/
+cat hello.txt
+chmod +x hello.txt
+chmod 777 hello.txt 
+adduser join
+cek user join di : cat /etc/passwd
+cat /etc/shadow
+su john 
+su root 
+sudo passwd root 
+su passwd john 
+
+memahami file permissions 
+http://www.candra.web.id/memahami-permisi-file-di-linux/

@@ -1,0 +1,8 @@
+ifconfig
+service apache2 start 
+echo "hello" > hello.txt 
+python -m SimpleHTTPServer 80
+service apache2 stop 
+systemctl enable ssh
+systemctl enable postgresql
+buka : metasploit frameworks

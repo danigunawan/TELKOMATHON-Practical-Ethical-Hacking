@@ -1,0 +1,11 @@
+echo "hello"
+echo "hey" > hey.txt
+ls 
+cat hey.txt 
+echo "hey again" > hey.txt 
+cat hey.txt 
+touch newfile.txt 
+ls 
+cat newfile.txt
+nano newfile.txt 
+gedit newfile.txt 

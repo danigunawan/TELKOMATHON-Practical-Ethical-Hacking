@@ -1,0 +1,538 @@
+# Why Pentesting
+1. WFH
+2. High Salaries
+3. Good Benefig/Work Life Balances
+4. Mentally Stimulating
+5. Legal B&E
+
+# A Pentester Day to Day 
+Roll Out Of Bed 
+External/Internal Network 
+Web Application 
+Wireless 
+Physical / Social / Phising 
+SOC (Purple Teaming)
+Report Writing
+Debriefs 
+
+# Technical Skills Needed
+Base : 
+Linux 
+Networking(OSI 7 Layer Model, Protocol, Etc)
+Scripting Skills (Python, Bash, Etc)
+Solid Hacking methodology
+Tool Familiarity (Metasploit, Burp Suite, Nessus, Etc)
+
+Preferred : 
+Active Directory 
+Wireless Attack 
+OWASP Top 10
+Coding Skills (Python, Bash, Etc)
+
+# Soft Skills Needed 
+Strong Desire To Learn 
+Non-complacency
+Social/People Skills 
+Perseverance 
+Blog/Twitter/Etc
+
+# TRANSCIPT
+Before we dive into this course I want to talk about a day in the life of an ethical hacker.
+
+And I want to talk about why I love ethical hacking or penetration testing and what I do on a day to
+
+day basis.
+
+What kind of engagements you might find yourself in as an ethical hacker and then the soft skills and
+
+technical skills.
+
+I think that you should have in order to be successful in this field.
+
+So let's go ahead and first look at why pin testing so why pen testing why for me.
+
+Well I work from home.
+
+I roll out of bed at like 750 5:00 in the morning.
+
+I'll get my coffee ready I'll go to my desk I'll make it there by 8:00.
+
+And I am ready to go.
+
+I don't have to sit in traffic.
+
+I'll have to drive to work.
+
+I you know I save so much time out of my life just by working from home.
+
+It's a great luxury.
+
+I love the lifestyle.
+
+It's not for everybody but a lot of penetration testing nowadays is working from home.
+
+And another great thing about pen testing is that the salaries are incredibly high.
+
+My first job in the field was over six figures meaning over one hundred thousand dollars in this field.
+
+As a you know first year pen tester.
+
+So it's incredible money and it it's very lucrative moving up anywhere from senior pen tester to make
+
+one hundred and fifty thousand dollars.
+
+A manager can make somewhere around one hundred and seventy to two hundred thousand dollars.
+
+And really the sky's the limit.
+
+Especially if you go out and you do your own business or your own consulting the salaries are very very
+
+high because this is a very technical field.
+
+And there there is a job shortage of people shortage right now we need we have more jobs and we have
+
+people so that relates to high salaries as well.
+
+On top of that the benefits are great.
+
+The work life balance is great.
+
+Again this boils down to where you work.
+
+But for me personally you know I'm working 40 hour weeks.
+
+My benefits are are have been fantastic through and through and I just I love the lifestyle right.
+
+That work from home that 40 hours a week I was an accountant before I got into penetration testing.
+
+And let me tell you I was working 60 hours a week 70 hour weeks.
+
+I was in the office all the time and I was you know I was going in when it was dark and I was coming
+
+home when it was dark and it just you know can easily lead to depression doing that.
+
+I've not experienced any of that and penetration testing and I'm really really happy for it.
+
+So on top of all this it is mentally stimulating.
+
+This is one of the best fields I am what I consider a lifelong learner.
+
+I like to learn.
+
+I am nonstop learning right and I have that personality type.
+
+And you're going to find that if you enjoy this field it's never going to feel like work to you.
+
+I could sit here and I can pen tests for 80 hours and it never feels like work to me it is just mentally
+
+stimulating.
+
+It's a puzzle.
+
+There's always something new to learn.
+
+There's always a new attack out and there's always a new defense out as well.
+
+So somebody is always trying to block your attacks and it's this cat and mouse game and if you do not
+
+stay up to date or on top of things you're going to get left behind.
+
+So you have to have that mentality in this field where you're always willing to learn and you like learning
+
+and that's really like for me.
+
+That's a positive to pen testing because I enjoy that.
+
+And lastly of course it's legal breaking and entering.
+
+Who doesn't like that.
+
+I get to break into buildings.
+
+I get to break into Web sites into networks and people pay me to do it.
+
+I cannot believe that this is a job when I first heard about it.
+
+I was like No way hackers.
+
+Hackers are bad guys right.
+
+But hackers can be good guys too and we can get paid very lucrative salaries.
+
+So from here.
+
+Let's talk about a day to day life style.
+
+So day to day here what's guaranteed most.
+
+It basically should be guaranteed is that I roll out of bed.
+
+I'm still relatively young and I have several different types of assessments that I can do in this really
+
+isn't all of them.
+
+But this is the ones that I do the most.
+
+Now I have what is an external or internal network assessment and we're gonna cover those quite a bit
+
+in this course but when we're talking external network assessment that means that I'm evaluating a network
+
+from the outside I could be I could be in China I can be United States I could be in Russia.
+
+It doesn't matter where I'm attacking from right.
+
+I could be in any country at any time attacking this network.
+
+So I'm on the outside looking in the internal is different.
+
+We assume at this point that we have breached the network.
+
+We have a dropbox.
+
+We've got some sort of code execution on their network.
+
+We logged into their VPN.
+
+It doesn't matter.
+
+Somehow some way we're on that network.
+
+What can we do once we're inside the network and what that means is we're going to be talking a lot
+
+about Active Directory pen testing and that's really what it corresponds to.
+
+And this course is going to hit very very heavy on Active Directory because of this and this.
+
+So you have two different types of network pen test and they the methodology is very similar the attacks
+
+in tool sets are very different.
+
+So they can almost be split apart into their own subsections but you will have external pen tests internal
+
+pen tests on the network side.
+
+You may be asked to do web application penetration testing.
+
+So that is assessing a Web site right.
+
+You have a Web site or an application that is given to you and you want to see if you can break that
+
+Web site if you can log in as an administrator or get somewhere that you you shouldn't be able to get
+
+to and you just want to evaluate the security posture of that Web site.
+
+So there are a lot of tools and methodologies out there for that.
+
+And we're gonna cover the top 10 in this course when we talk about that which is big when it comes to
+
+testing web applications.
+
+So from there we also have what is called wireless penetration testing that is the evaluation of a wireless
+
+network.
+
+So we'll go on site we'll try to hack into the wireless.
+
+We'll look at the guest network and see if there's any segmentation or not.
+
+Should a guest be able to sign in and access the same network that somebody who is a logged in as an
+
+employee should access.
+
+The answer is No.
+
+But it happens quite a bit.
+
+We'll also look for rogue devices and see you know what might be out there that is interesting to us.
+
+We'll we'll talk more about all these different assessments when we get into their respective sections.
+
+Now there's also what is called physical or social or phishing.
+
+There are three different types but they fall into social engineering.
+
+Now physical assessment is where you go onsite and you try to break into a building.
+
+You have a destination in mind maybe it's a server closet or you know some some critical location the
+
+building that they don't want you to get into.
+
+This could involve picking locks.
+
+Social engineering a lot of the time cloning badges you know in just making your way into this building
+
+through whatever methodology you can.
+
+Now social engineering in fishing those are kind of hand-in-hand.
+
+You'll do a fishing campaign or social engineering campaign or even a fishing where you're calling on
+
+the phone and you're trying to get information and you're just after you know what kind of credentials
+
+can I get who clicks on my links.
+
+What kind of passwords do I get.
+
+Etc. We also have what is called sock assessment.
+
+So a sock isthmus assessment is also known as purple teaming and purple teaming is when you combine
+
+red and blue.
+
+So as a penetration tester or ethical hacker you're often known as a red and a defender is often known
+
+as blue.
+
+So you combine those and that makes purple.
+
+And what that means is we'll sit down with a blue team as an offensive team we'll sit down with the
+
+blue team and we'll say Hey what attacks do you want us to try to run or we're going to run these attacks.
+
+And I want to know if you pick it up so I might run a specific tack and see if the Blue Team detects
+
+it.
+
+I might go plug into their network and see if it prevents me from plugging into the network.
+
+Do they get an alert on that.
+
+If not how can we help them.
+
+Baseline this attack to get this alert.
+
+So I think purple teaming assessments are some of the best assessments that are out there because not
+
+only do they learn from you and what attacks are out there but you learn from them on how to defend
+
+against these and how to bypass these two because maybe your first attempt does get blocked and you're
+
+like hey maybe I should you know run a different attack and see if you catch that.
+
+And it's a great way to have that cat and mouse game again.
+
+So once we do these types of assessments we have to write a report.
+
+We have to report back on what we saw and tell the client about it and I put a little sad face there
+
+because you know not everybody likes writing reports but it is absolutely part of the job.
+
+You have to be well written in this field to be successful.
+
+So you know you write this report and you're going to have to present this report to a client and that's
+
+what is the debrief now debrief is where you take the report and you give it to a client and you walk
+
+through it with the client and say Here's what's wrong here's why it's wrong and here's how we can fix
+
+that for you or here's how you can fix that.
+
+Right.
+
+And so you have to have this technical skill set as a penetration tester and you have to have this well
+
+written skill set you have to be able to write well you also to be able to talk in front of people when
+
+it comes to doing debriefs and talk to people.
+
+That doesn't mean you have to be an extrovert by any means you can be an introvert.
+
+I am very introverted but you have to be able put that personality on when you're on site.
+
+Same thing with the physicals by the way if you're on site for a physical.
+
+You do not have to be an extrovert to be successful.
+
+I know plenty of good physical pen testers that are actually introverts and do just fine as long as
+
+you're able to get into that mindset for that temporary time period.
+
+So anywhere from all these different assessments that you could end up doing at any given time you'd
+
+be well-rounded there you're gonna be writing reports you're going to be presenting reports to clients
+
+now let's talk about the technical skills that you are going to need and our course here is going to
+
+cover a lot of these.
+
+So at a base level you really do need to know Linux preferably Cally Linux or what.
+
+Another type is called Parrot.
+
+There is networking that you should know you should be familiar with the LSI model certain protocols
+
+like DCP UDP HDP etc. You should have good scripting skills whether it be python scripting or bash scripting
+
+et cetera there and you should have a solid hacking methodology.
+
+And this is all what we would want as a base for an interview.
+
+You should have also tool familiarity right Metis polite burp sweet ness is if all this sounds like
+
+a foreign language to you that's fine.
+
+Come back and watch this video again.
+
+Once you've gone through the whole course and it's going to all click for you you're gonna say Hey I
+
+know a lot of this.
+
+And on the preferred side active directory is huge.
+
+If you know actor directory you're going to be ahead of the game most people and I interviewed them.
+
+They have a good base but they don't have that good preferred site.
+
+And we like we like the preferred column a lot.
+
+OK.
+
+So active directory super important wireless attacks important to know the last top 10 also important
+
+to know that is related to web application penetration testing and lastly coding skills.
+
+So scripting and coding a little bit different scripting is what you'll be using primarily coding.
+
+You don't have to be a coder to be successful in this field at all.
+
+By the way if you only script for the rest of your life in this field you'll still find plenty of success.
+
+However you can code new tools things you know contribute to the community with it.
+
+We'll talk about that here in a second as well but just know that the base is possibly potentially can
+
+get you into a job to preferred.
+
+We'll definitely get you into a job if you have strong knowledge on that side.
+
+Along with the base knowledge lastly something that is not covered much is these soft skills that you
+
+need to be a pen tester.
+
+So yeah it's great to be technical and we already talked about the social people skills right.
+
+Because you're gonna be doing that debriefing.
+
+You might be doing social engineering etc. and you're going to have to have that well written ability
+
+to you as well.
+
+But let's talk about some these other ones.
+
+You need a strong desire to learn.
+
+You should be the type of person that personality type that always wants to learn.
+
+We talked about it right where you should be the guy or girl that wants to go home and study and you
+
+find this fascinating in you that desire to learn is going to benefit you because of that cat and mouse
+
+game because you know something that you knew yesterday might not be an exploit today.
+
+You know patches are coming out all the time and you have to stay ahead of the game because of this
+
+cat and mouse game.
+
+So that strong desire to learn super important if you do not stick up with your studies you're gonna
+
+get left behind and most people have this desire to be in the field of ethical hacking because they
+
+think it's sexy.
+
+It sounds cool and is cool but if you do not have that desire to learn you do not have that that perseverance
+
+which are going to talk about you're going to get left behind in this field and you're not going to
+
+be successful.
+
+So let's move over to perseverance.
+
+You have to have this perseverance mindset now which is that desire to learn but also that ability to
+
+not give up because the answer is not always there in front of you and you're going to see this as we
+
+go through the course is not cut and dry it's not hey I scan for this I see an exploit I go exploit
+
+it you might have to do a lot of research it might look like the machine that you're attacking it has
+
+no exploits available to it and you have to be able to put in that persistence to be able to persevere
+
+you have to have that mindset where I'm not going to give up I'm going to keep trying at this until
+
+I have exhausted all my potential resources.
+
+That is what makes a good hacker.
+
+OK that that mindset of I'm not going to quit really makes a good hacker.
+
+Now on top of that non complacency this kind of falls into that strong desire to learn.
+
+Now I've had coworkers that are completely happy when I was working helpdesk when I was working in networking.
+
+Plenty of co-workers who were happy with their jobs.
+
+They've been in the same position for five years 10 years.
+
+You cannot be that person if you want to be a pen tester you always want to learn more.
+
+You always want to move up you want and you want the most out of yourself.
+
+OK don't be complacent if you're complacent you're gonna get left behind.
+
+Just beating a dead horse here.
+
+It really is true that you're going to get left behind if you're not constantly studying and if you
+
+stay complacent.
+
+Lastly you should have a blog or Twitter or get hub or something that you contribute back to the community
+
+where it could be a YouTube channel or Twitter stream or however you want to do it right.
+
+You should give back to the community when I see that somebody is giving back to the community on their
+
+resumé even if it's a blog post or Twitter whatever.
+
+It really helps in things that are going to ask and interview include where you get your news from or
+
+in how do you you know do you have a blog you're gonna be asked that you know and Twitter is a great
+
+place to get get news and blogs.
+
+Great place to give back.
+
+And Twitter is a great place to get back to.
+
+So make sure you're contributing to your community.
+
+It will really help you in the long run.
+
+And you don't have to reinvent the wheel.
+
+It could be a blog that somebody has posted before or 20 people post to be for as long as you're posting
+
+it and it helps you learn and it helps your style might be something that helps somebody else learn
+
+as well compared to the other blog posts where maybe people don't like that writing style or they don't
+
+like that commentary or however it is.
+
+So you never know how your content is going to help somebody else.
+
+I always encourage people to go out there and make their own content so that's it.
+
+And I know this is a long video this is going to be longer than most the videos that I wanted to dive
+
+in and really cover what you can expect as an ethical hacker and what you need really at a technical
+
+and a soft skill level to be successful.
+
+So from here we're going to go ahead and get right into the course.
+
+Next up is effective no keeping.
+
+We're going to talk about the importance of keeping what tools you should use to be keeping notes through
+
+this course.
+
+And we're going to dive right into the technical concepts so I'll catch you over in the next video.

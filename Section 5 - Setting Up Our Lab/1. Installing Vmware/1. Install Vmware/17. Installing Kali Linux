@@ -1,0 +1,14 @@
+
+Install dan Download kali Linux utk vbox/vmware : 
+https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/
+
+# MAC
+1. Download yang 64 bit vmware 
+2. buka vmware fusion
+3. Open image kali linux 64 bit
+user : kali 
+pass : kali
+
+# root 
+user : root
+pass : 29912120

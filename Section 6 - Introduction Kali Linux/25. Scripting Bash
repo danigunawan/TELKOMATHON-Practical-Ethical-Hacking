@@ -1,0 +1,28 @@
+Commands
+=========
+
+grep
+cut
+tr
+script writing
+for loops
+
+
+Note
+=======
+ping 192.168.1.90
+ping 192.168.1.90 -c 1
+ping 192.168.1.90 -c 1 > ip.txt 
+cat ip.txt 
+cat ip.txt | grep "64 bytes"
+cat ip.txt | grep "64 bytes" | cut -d "  " -f 4
+cat ip.txt | grep "64 bytes" | cut -d "  " -f 4 | tr -d ":"
+gedit ipsweep.sh
+chmod +x ipsweep.sh 
+./ipsweep.sh 
+./ipsweep.sh 192.168.1 > iplist.txt 
+cat iplist.txt 
+./ipsweep.sh 1
+cat iplist.txt
+for ip in $(cat iplist.txt): do nmap -sS -p 80 -T4 $ip & done
+
